@@ -4,7 +4,9 @@
 
 Pet Clinic System
 
-In a pet clinic system, there is a need to manage and display information about different types of pets. The system should be able to handle dogs and cats, each with unique attributes and behaviors. The goal is to design a system that adheres to the principles of the factory design pattern to create instances of pets and display relevant information.
+In a pet clinic system, there is a need to manage and display information about different types of pets.
+The system should be able to handle dogs and cats, each with unique attributes and behaviors.
+The goal is to design a system that adheres to the principles of the factory design pattern to create instances of pets and display relevant information.
 
 **Requirements:**
 
