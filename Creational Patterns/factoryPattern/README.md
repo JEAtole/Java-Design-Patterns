@@ -23,3 +23,17 @@ You don’t have to remember the right order or number of constructor arguments 
 ✅ **Follows good practice**
 
 This pattern follows something called the Open/Closed Principle, meaning your code can grow without needing to change the parts that are already working.
+
+## Analogy
+
+Imagine going into a coffee shop and you ask for a coffee.
+
+You don't have to know how it is made - latte, espresso, or mocha?
+
+The barista (factory) knows all the recipes and picks the right one based on your order.
+
+They make the coffee perfectly for you and hand it over.
+
+The barista is like the factory: handles the object creation so you (the client) don't worry about the details.
+
+And when adding a new drink, you just teach the barista a new recipe, no need to change your order code.

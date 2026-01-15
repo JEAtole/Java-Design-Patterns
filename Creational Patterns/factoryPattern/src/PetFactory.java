@@ -1,12 +1,13 @@
 public class PetFactory {
 
     public static Pet createPet(String type, Object info) {
-        if (type.equalsIgnoreCase("dog") && info instanceof String) {
-            return new Dog((String) info);
-        } else if (type.equalsIgnoreCase("cat") && info instanceof Integer){
-            return new Cat((Integer) info);
+
+        switch (type.toLowerCase()) {
+            case "dog" -> { return new Dog((String) info); }
+            case "cat" -> { return new Cat((Integer) info); }
+            default -> { throw new IllegalArgumentException("Unknown pet type"); }
         }
-        throw new IllegalArgumentException("Invalid pet type or info");
+
     }
 
 }

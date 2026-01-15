@@ -1,5 +1,5 @@
 public class Cat implements Pet {
-    private int noOfLives;
+    private final int noOfLives;
 
     public Cat (int noOfLives) {
         this.noOfLives = noOfLives;
